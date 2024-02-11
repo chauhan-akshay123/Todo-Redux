@@ -1,0 +1,41 @@
+body{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.m-1{
+  margin: 1rem;
+}
+.p-1{
+  padding: 1rem;
+}
+.b-2{
+  border: 2px solid black;
+}
+.strike{
+  text-decoration: line-through;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #b592e8;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+footer p {
+  margin: 0;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+footer p:hover {
+  cursor: pointer;
+  color: #33ff00;
+  transform: scale(1.1); 
+  text-shadow: 2px 2px 4px rgba(255, 69, 0, 0.8);  
+}
